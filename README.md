@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # my-resume
 
 <img src="src/assets/resume-pic.png" width="350" style="margin-right:5px; border: 1px solid #ccc;" />
@@ -12,3 +13,8 @@ This my-resume is written in Angular 10, you need to have environment for this A
  - Run ``ng serve --open``
  
  More templates to be added.
+=======
+# SitholeWB.github.io
+
+This is my personal information Github page.
+>>>>>>> cd7afc92857f15c744e95841bf30fe4e33664c2d

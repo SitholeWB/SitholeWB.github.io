@@ -1,0 +1,69 @@
+<mdb-card>
+    <mdb-card-header class="mdb-card-header-background">ABOUT ME</mdb-card-header>
+    <mdb-card-body>
+        <span *ngIf="!showFullCoverLetter">
+            <mdb-card-text>
+                Experienced Full Stack Developer with over 4 years in the industry and high-level proficiency in the
+                following
+                programs: C#, Javascript, SQL, Java, Angular and React. I am very familiar and experienced with Web
+                Application Architecture and have worked with a good number of successful development teams.
+            </mdb-card-text>
+            <button mat-raised-button color="accent" (click)="toggleCoverLetter()">Expand full cover letter >></button>
+        </span>
+
+        <span *ngIf="showFullCoverLetter">
+            <mdb-card-text>
+                <p>
+                    Dear Sir or Madam.
+                </p>
+                <p>
+                    With the utmost enthusiasm I would like to put my name forward as a Full Stack Developer.
+                </p>
+                <p>
+                    I have the ability to create back-end code that will add utility to everything the front-end
+                    designer
+                    creates. I'm passionate about the impact my skills can have in the real world, and firmly believe
+                    that I
+                    can
+                    create innovative solutions to business processes and problems which will ultimately lead to a
+                    better user
+                    experience.
+                </p>
+                <p>
+                    With my previous experience in using an array of programming languages and my expertise at
+                    delivering high
+                    quality and user rich solutions on time, I see myself as a good fit developer. I possess a proven
+                    and
+                    verifiable track record in building and managing mass-market e-commerce sites.
+                </p>
+                <p>
+                    In short, I can bring to your company my ability to take finished front-end code and gives it
+                    working
+                    functionality. I possess an in-depth understanding of both front end and back end technologies, and
+                    am
+                    very
+                    good at defining what success looks like. Furthermore I am proficient in Microsoft and Web
+                    Technologies
+                    such
+                    as C#, ASP.Net, .NET Core, SQL Server, Angular and React. I am also strong and comfortable with Java
+                    language, I have used it a lot in the past.
+                </p>
+                <p>
+                    My ambition is to reach the very top of my profession and to work with other leading developers in
+                    this
+                    field. On a personal level I am able to both give and take feedback. Furthermore I am committed to
+                    constantly improving myself by learning new technologies and frameworks.
+                </p>
+                <p>
+                    Yours sincerely,
+                    <br />
+                    Welcome Bonginhlahla Sithole
+                </p>
+            </mdb-card-text>
+            <button mat-raised-button color="accent" (click)="toggleCoverLetter()">Collapse cover letter &lt;
+                &lt;
+            </button>
+        </span>
+
+    </mdb-card-body>
+</mdb-card>

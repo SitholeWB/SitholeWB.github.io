@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mdb-card-header {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+mdb-card {
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.work-section {
+    background-color: gray;
+}
+
+.mdb-card-header-background {
+    background-color: gray;
+}
+
+.mdb-card-work-section {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.mdb-card-subtitle-work-section {
+    color: #747373;
+}
+
+.mdb-card-header-work-section, .mdb-card-content-work-section {
+    color: #747373;
+}
+
+.mat-divider-work-section {
+    background-color: #747373;
+}
+
+.my-resume-body {
+    width: 100%;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.ukzn-header-image {
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/ukzn-logo.jpg?raw=true');
+    background-size: cover;
+}
+
+.high-school-header-image {
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/dep-education.jpg?raw=true');
+    background-size: cover;
+}
+
+.lexisnexis-header-image {
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/lexisnexis.png?raw=true');
+    background-size: cover;
+}
+
+.derivco-header-image {
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/derivco.png?raw=true');
+    background-size: cover;
+}
+
+.astel-header-image {
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/astel.jpg?raw=true');
+    background-size: cover;
+}

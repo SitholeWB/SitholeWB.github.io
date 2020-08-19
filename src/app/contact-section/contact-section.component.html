@@ -1,0 +1,36 @@
+<mat-list>
+    <div mat-subheader style="font-size: x-large;">CONTACTS</div>
+    <mat-divider></mat-divider>
+    <mat-list-item *ngFor="let item of contactItems">
+
+        <div *ngIf="item.iconType=='fab'">
+            <mdb-icon fab icon={{item.icon}} size="lg"></mdb-icon>
+        </div>
+        <div *ngIf="item.iconType=='fas'">
+            <mdb-icon fas icon={{item.icon}} size="lg"></mdb-icon>
+        </div>
+
+        <div *ngIf="item.url?.length===0">&nbsp; {{item.description}}</div>
+
+        <div *ngIf="item.url?.length > 0">
+            <a href={{item.url}} target="_blank">&nbsp; {{item.description}}</a>
+        </div>
+
+    </mat-list-item>
+
+</mat-list>
+<br />
+<mat-list>
+    <div mat-subheader style="font-size: x-large;">LANGUAGES</div>
+    <mat-divider></mat-divider>
+    <mat-list-item *ngFor="let item of languageItems">
+
+        <div *ngIf="item.url?.length===0">&nbsp; {{item.description}}</div>
+
+        <div *ngIf="item.url?.length > 0">
+            <a href={{item.url}} target="_blank">&nbsp; {{item.description}}</a>
+        </div>
+
+    </mat-list-item>
+
+</mat-list>

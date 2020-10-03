@@ -51,6 +51,11 @@ mdb-card {
     margin-left: 20px;
 }
 
+.immedia-header-image {
+    background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/immedia.png?raw=true');
+    background-size: cover;
+}
+
 .ukzn-header-image {
     background-image: url('https://github.com/SitholeWB/my-resume/blob/master/src/assets/ukzn-logo.jpg?raw=true');
     background-size: cover;

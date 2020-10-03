@@ -10,6 +10,7 @@ export class WorkExperienceComponent implements OnInit {
   derivcoURL: string = "https://www.derivco.co.za";
   astelURL: string = "http://astel.info";
   refcheckURL: string = "https://www.refcheck.co.za";
+  immediaURL: string = "https://www.immedia.co.za/";
   expandCompany: string = "";
   constructor() { }
 

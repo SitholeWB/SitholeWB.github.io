@@ -1,6 +1,56 @@
 <mdb-card style="background-color: gray;">
     <mdb-card-header>EXPERIENCE</mdb-card-header>
 
+    <!--------------------------------IMMEDIA------------------------------------->
+
+    <mat-card class="mdb-card-work-section">
+        <mat-card-header class="mdb-card-header-work-section">
+            <div mat-card-avatar class="immedia-header-image"></div>
+            <mat-card-title>Immedia</mat-card-title>
+            <mat-card-subtitle class="mdb-card-subtitle-work-section">
+                <span>
+                    <mdb-icon fas icon="briefcase"></mdb-icon>
+                    Software Developer
+                </span>
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <span>
+                    <mdb-icon fas icon="calendar-alt"></mdb-icon>
+                    October 2020 - Present
+                </span>
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <a href={{immediaURL}} target="_blank">
+                    <span>
+                        <mdb-icon fas icon="globe"></mdb-icon>
+                        {{immediaURL}}
+                        <mdb-icon fas icon="external-link-alt"></mdb-icon>
+                    </span>
+                </a>
+                <mat-divider class="mat-divider-work-section"></mat-divider>
+            </mat-card-subtitle>
+        </mat-card-header>
+
+
+        <mat-card-content class="mdb-card-content-work-section">
+
+            <div *ngIf="expandCompany !=='immedia'">
+                <p>
+                    Coming soon...
+                </p>
+                <mat-chip-list>
+                    <mat-chip color="accent" selected (click)="toggleCompanyDetails('immedia')">More >></mat-chip>
+                </mat-chip-list>
+            </div>
+            <div *ngIf="expandCompany ==='immedia'">
+                <div>Coming soon...</div>
+                <mat-chip-list>
+                    <mat-chip color="accent" selected (click)="toggleCompanyDetails('')">Collapse &lt;&lt;</mat-chip>
+                </mat-chip-list>
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <!--------------------------------LEXISNEXIS------------------------------------->
+
     <mat-card class="mdb-card-work-section">
         <mat-card-header class="mdb-card-header-work-section">
             <div mat-card-avatar class="lexisnexis-header-image"></div>
@@ -13,7 +63,7 @@
                 <span>&nbsp;&nbsp;&nbsp;</span>
                 <span>
                     <mdb-icon fas icon="calendar-alt"></mdb-icon>
-                    Jun 2019 - present
+                    Jun 2019 - Sep 2020
                 </span>
                 <span>&nbsp;&nbsp;&nbsp;</span>
                 <a href={{lexisnexisURL}} target="_blank">

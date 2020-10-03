@@ -1,0 +1,12 @@
+<mat-list>
+    <mat-divider></mat-divider>
+    <div mat-subheader style="font-size: x-large;">TECHNOLOGIES</div>
+    <mat-divider></mat-divider>
+</mat-list>
+<div style="display: block">
+    <canvas mdbChart style="color: white;"
+        [chartType]="chartType"
+        [datasets]="chartDatasets"
+        [labels]="chartLabels">
+    </canvas>
+  </div>

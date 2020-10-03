@@ -15,6 +15,7 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { EducationComponent } from './education/education.component';
+import { HardSkillsComponent } from './hard-skills/hard-skills.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EducationComponent } from './education/education.component';
     ContactSectionComponent,
     WorkExperienceComponent,
     AboutMeComponent,
-    EducationComponent
+    EducationComponent,
+    HardSkillsComponent
   ],
   imports: [
     BrowserModule,

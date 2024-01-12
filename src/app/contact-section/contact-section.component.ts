@@ -8,12 +8,6 @@ import { ContactDetail } from '../models/contact-detail'
 export class ContactSectionComponent implements OnInit {
   contactItems: ContactDetail[] = [
     {
-      description: '20 Jan 1992, South Africa, KwaZulu-Natal',
-      icon: 'birthday-cake',
-      iconType: 'fas',
-      url: ''
-    },
-    {
       description: '34 Ryde Avenue, Glenwood Durban',
       icon: 'map-marker-alt',
       iconType: 'fas',
